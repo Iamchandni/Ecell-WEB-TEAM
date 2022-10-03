@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Defining the navigation bar here -->
+
+    <div class="container"> 
+        <nav class="navbar"><ul>
+            <div class="logo"><img src="icon.png"></div>
+            <li><a href="#">Explore</a></li>
+        <li><a href="#">Problem</a></li>
+        <li><a href="contest.html">Contest</a></li>
+        <li><a href="#">Discuss</a></li>
+        <li><a href="#">Interview</a></li>
+        <li><a href="#">Store</a></li>
+           
+            <button class="btn">PREMIUM</button>
+            <img class="img" src="bell.png">
+            <img class="img" src="streaks.png">
+            <img class="img" src="profile.png">
+        
+        </ul></nav>
+        <!-- The main page which contains the list of all problems solved -->
+        <main>
+            <div class="tabs">
+                <div class="inner-tab">
+                <div class="tab-icons">
+                   <p><i class="fa-solid fa-list-check"></i>Recent Activity</p>
+                   <p><i class="fa-solid fa-square-check"></i>Solutions</p>
+                   <p> <i class="fa-solid fa-message"></i>Discuss</p>
+                </div>
+                <div>
+                    <p>View All Submissions</p>
+                </div>
+            </div>
+            </div>
+            <div class="questions">
+            <div class="inner-questions"> 
+                <div>Best Time To Buy And Sell Stock</div>
+                <div class="timeline">a day ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Pacific Coins</div>
+                <div class="timeline">2 days ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Clone Graph</div>
+                <div class="timeline">4 days ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Chef Makes Burger</div>
+                <div class="timeline">15 days ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Course Schedule</div>
+                <div class="timeline">23 days ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Max Area of Island</div>
+                <div class="timeline">1 month ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Binary Tree Cameras</div>
+                <div class="timeline">2 months ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Next Permutation</div>
+                <div class="timeline">3 months ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Minimum Path Sum</div>
+                <div class="timeline">3 months ago</div>
+            </div>
+            <div class="inner-questions"> 
+                <div>Number of Dice Roll With Target Sum</div>
+                <div class="timeline">4 months ago</div>
+            </div>
+            </div>
+        </main>
+        <!-- Defining the sidebar containing the information about user profile -->
+        <div id="sidebar">
+            <div class="box">
+            <div class="inner-box">
+                <i id="icon" class="fa-solid fa-user fa-4x"></i>
+            </div>
+            <div class="inner-box">
+                <h3>Test User</h3>
+                <p>testUser007</p>
+                <h4>Rank 392,283</h4>
+            </div>
+        </div>
+        <button id="b" ><a href="https://www.linkedin.com/in/chandni-4a2049226/overlay/contact-info/">Edit Profile</a></button>
+        <div class="info">
+            <div><p><i class="fa-solid fa-location-dot"></i>India</p></div>
+            <div><p><i class="fa-solid fa-graduation-cap"></i>MNNIT Allahabad</p></div>
+            <div><p><i class="fa-brands fa-github"></i>Test User</p></div>
+            <div><p><i class="fa-brands fa-linkedin"></i>test-User</p></div>
+        </div>
+        <hr>
+        <div class="community">
+            <div><h3>Community Stats</h3></div>
+            <div><p id="p"><i style="color:coral" class="fa-solid fa-eye"></i>Views<p  id="al">Last Week 0</p>
+            </p></div>
+            <div><p id="p"><i style="color:rgb(142, 27, 142)" class="fa-solid fa-square-check"></i>Solution<p id="al">Last Week 0</p>
+                </p></div>
+            <div><p id="p"><i style="color:rgb(89, 65, 221)" class="fa-solid fa-bell"></i>Discuss<p id="al">Last Week 0</p>
+               </p></div>
+            <div><p id="p"><i style="color:yellow" class="fa-solid fa-star"></i>Reputation<p id="al">Last Week 0</p>
+                </p></div>
+        </div>
+        <hr>
+        <div class="lang">
+            <h3>Languages</h3>
+            <div class="box">
+            <div><button class="bt">C++</button></div>
+            <div id="lang"><b>138</b> problems solved</div>
+        </div>
+    </div>
+    <hr>
+    <div class="skills">
+        <h3>Skills</h3>
+        <div id="skills">
+            <p><i style="color:orange" class="fa-solid fa-circle fa-2xs"></i>Intermediate</p>
+            <button class="btw">Hash Table</button>
+            <button class="btw">Binary Search</button>
+            <br>
+            <button class="btw">Depth-First Search</button>
+
+            <p><i style="color:rgb(61, 203, 61)" class="fa-solid fa-circle fa-2xs"></i>Fundamental</p>
+            <button class="btw">Array</button>
+            <button class="btw">String</button>
+            <br>
+            <button class="btw">Two pointers</button>
+
+            
+            <p><i style="color:rgb(127, 27, 249)" class="fa-solid fa-circle fa-2xs"></i>Trending</p>
+            <button class="btw">Graphs</button>
+            <button class="btw">Trees</button>
+            <br>
+            <button class="btw">Recursion</button>
+            <p id="end">Show More</p>
+        </div>
+    </div>
+    </div>
+    <!-- This portion consists of the progress bar keeping a track record of the number 
+        of problems solved in each level -->
+        <div id="content-1"><p>Solved Problems</p>
+            <div class="pblm">
+             <div class="pb">
+                <div>EASY </div>
+                 <div><b>21</b>/536</div>
+                </div>
+             <div class="favion"><i style="color:rgb(58, 9, 117)" class="fa-solid fa-shield-halved fa-1x"></i>
+                <i style="color:rgb(58, 9, 117)" class="fa-solid fa-shield-halved fa-1x"></i>
+                <i style="color:rgb(58, 9, 117)"  class="fa-solid fa-shield-halved fa-1x"></i>
+                <i style="color:rgb(58, 9, 117)" class="fa-solid fa-shield-halved fa-1x"></i>
+            </div>
+        <div class="pb">MEDIUM
+            <div><b>89</b>/1256</div>
+        </div>
+       <div class="favion"> <i style="color:rgb(121, 10, 138)" class="fa-solid fa-shield-halved fa-1x"></i>
+        <i style="color:rgb(121, 10, 138)" class="fa-solid fa-shield-halved fa-1x"></i>
+        <i style="color:rgb(121, 10, 138)" class="fa-solid fa-shield-halved fa-1x"></i></div>
+        <div class="pb">HARD
+            <div><b>25</b>/530</div>
+        </div>
+       <div class="favion"> <i style="color:rgb(43, 110, 12)"  class="fa-solid fa-shield-halved fa-1x"></i>
+        <i style="color:rgb(43, 110, 12)" class="fa-solid fa-shield-halved fa-1x"></i></div>
+    </div>
+</div>
+<!-- Keeps a record of badges collected -->
+        <div id="content-2">
+            <div class="badge"><p>No of Badges</p>
+                               <h4>4</h4>
+            </div>
+            <div class="badge"><h4><i  style="color:crimson" class="fa-solid fa-bullseye fa-2x"></i>Beginner</h4>
+               
+            </div>
+            <div class="badge"><h4><i  style="color:rgb(64, 19, 169)" class="fa-solid fa-bullseye fa-2x"></i>Double Dip</h4>
+                
+               </div>
+               <div class="badge"><h4><i  style="color:rgb(107, 137, 36)" class="fa-solid fa-bullseye fa-2x"></i>Amateur</h4>
+                
+                </div>
+                <div class="badge"><h4><i  style="color:rgb(176, 32, 121)" class="fa-solid fa-bullseye fa-2x"></i>Advanced</h4>
+                   
+ </div>
+            <div class="badge" >
+                <p>Locked Badge</p>
+                <h4>Sep LeetCode Challenge</h4>
+            </div>
+         </div>
+      
+    </div>
+</body>
+</html>
